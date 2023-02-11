@@ -1,0 +1,42 @@
+{
+    "profile": {
+    "rol":"Ing. Sistemas, Telecomunicaciones y Electrónica (Ing. Control) ",
+    "description": "Agradezco el interés y el tiempo empleado en visitar mi Portfolio. Recien egresado (UNAM).<br> <br> Apasionado por la resolución de problemas <br> por medio de la tecnología en especial con ecosistemas cómo HTML, CSS, Python, JavaScript, PLC's, Microsoft Excel (Macros) y Matlab.  <br/> <br/> Mi experiencia laboral me permite confirmar que puedo trabajar eficazmente tanto por iniciativa propia como parte de un equipo, mi postulación se dirige a empresas cuya visión, y objetivos se dedican al bienestar social y al desarrollo de la tecnología para beneficio humano. <br/>",
+    "CV":"Visualiza mi CV haciendo click a mi nombre."
+    },
+
+    "titles": {
+        "t1": "Experiencias",
+        "t2": "Otras habilidades",
+        "t3": "- Inglés Intermedio <br> - Atención a clientes <br> - Trabajo en Equipo <br> - Facilidad de comunicación <br> - Conocimiento KPI's <br> - Modelo SCRUM <br> - Conocimiento Lenguaje PLC's <br> - Conocimiento PCB <br> - Redes y Cableado Estructurado",
+        "t4": "Desarrollador Jr. Full Stack",
+        "t5": "Años de experiencia",
+        "t6": "0 años",
+        "t7": "4 años",
+        "t8": "Paqueteria Microsoft Office",
+        "t9": "Bases de Datos",
+        "t10": "INTERFAZ DE CONTROL CON ASISTENTE DE VOZ",
+        "t11": "Este es un proyecto enfocado en Dómotica (IoT) - Con este proyecto se buscó el control de varios sensores y actuadores (Hardware) a través de comandos de voz totalmente personalizados gracias a un framework de JavaScript llamado Artyom.js, el cuál nos permite manipular las funcionalidades de nuestra pagina web y accionarla por medio de los comandos en la interfaz gráfica. <br> <br> Ademas de esta libreria, la interconexión se realiza gracias al Arduino IDE vinculando los sistemas fisicos por medio de una placa de desarrollo llamada ESP8266 para posteriormente; usando la estructura de datos 'arboles' en Firebase (Base de datos en tiempo real), poder conectar los sistemas y con ello, manipularlos desde la web. <br> <br> <br>",
+        "t12": "Código",
+        "t13": "JUEGO DINOCHROME AUTOMATIZADO <br> CON ALGORITMOS GENETICOS",
+        "t14": "En este proyecto se realizo la automatizacion del famoso juego 'DinoChrome' utilizando y aplicando la teoría de los Algoritmos Genéticos tanto para la optmización como para la automatización de resultados. <br> Para esto, desde el codigo libre y orginal del juego se creo una clase en JavaScript para utilizar 10 dinosaurios (población inicial) por cada generacion (partida) y poderle aplicar diversos operadores genéticos (generación de cromosomas y alelos, selección, cruce, mutación) esto con el fin de encontrar a los 2 mejores individuos por cada generación y con ello optimizar el puntaje obtenido hasta encontrar a la mejor generación de Dinosuarios, todo esto de forma automática. <br> <br> <br> "
+    },
+
+   "tags":{
+        "p1":"#Asistente de voz (Artyom.js)",
+        "p2":"#Electrónica Digital",
+        "p3":"#Algoritmos Genéticos",
+        "p4":"#Inteligencia Artificial"
+   }, 
+
+
+    "experience":{
+    "first-job-title": "AUXILIAR EN TELECOMUNICACIONES <br> Y SISTEMAS",
+    "first-job-dates": "FEBRERO 2020 - MAYO 2022",
+    "first-job-description": "División de Telecomunicaciones y Sistemas, encargados de <br> desarrollar e implementar métodos de interconexión entre subsistemas para vehículo espacial teledirigido con comunicación inalámbrica desde interfaz web de control.",
+    "last-job-title": "ASESOR GENERAL DE VENTAS",
+    "last-job-dates": "AGOSTO 2017 - MAYO 2020",
+    "last-job-description": "Asesoría en ventas de telefonÍa celular, atención al público en mostrador y vía telefónica, manejo e implementación de software y hardware en los diferentes ámbitos del negocio. <br> <br> Apoyo en organización y gestión de la cartera de clientes y almacén."
+   }
+}
+

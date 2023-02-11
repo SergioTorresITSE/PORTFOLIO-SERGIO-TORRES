@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Portfolio</title>
+  </head>
+  <body class="dark">
+
+                                <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img
+           id="toggle-icon"
+           src="assets/icons/moon.svg"
+           alt="icon theme"
+           class="toggle-theme__icon"/>
+          <p id="toggle-text" class="toggle-theme__text" >Dark </p>
+        </div>
+      </div>
+
+<div id="flags" class="flags">
+  <div class="flags__item" data-language="mx"> 
+    <img src="assets/icons/mx.svg" alt="" class="flags__img">
+  </div>
+  <div class="flags__item" data-language="us"> 
+    <img src="assets/icons/us.svg" alt="" class="flags__img">
+  </div>
+</div>
+
+      <div id="toggle-colors" class="colors">
+        <div data-color="rgb(66, 111, 187)" class="colors__item colors__item--blue"></div>
+        <div data-color="hsl(46,84%,56%)" class="colors__item colors__item--orange"></div>
+        <div data-color="rgb(245, 200, 200)" class="colors__item colors__item--red"></div>
+        <div data-color="rgb(17, 0, 29)" class="colors__item colors__item--black"></div>
+        
+      </div>
+
+                                </header>
+
+    <!-- <h1 class="title">MI PORTFOLIO</h1> -->
+     <!-- SECCIONES PARA CONTENIDO DE PORTFOLIO -->
+
+    <main class="main">
+      <section class="column column--left"> <!-- COLUMNA IZQ PERFIL -->
+       <article class="card card--profile">
+
+        <div class="card__image-container">
+          <img src="/assets/images/fotoperfil.jpeg" alt="">
+        </div>
+                  <!-- CONTENIDO PERFIL SECCIONES -->
+
+         <div class="card__header">
+          <h2 class="card__title"> <a href="https://drive.google.com/drive/folders/1vJ89ARuyCKEUh0Zt8a2ExKnKOB4br9Mo?usp=sharing" target="_blank"
+            rel="noreferrer noopener" >Sergio Yahel Torres Maldonado </a> </h2>
+
+          <p class="card__subtitle" 
+            data-section="profile" 
+             data-value="rol"
+             >Ing. Sistemas, Telecomunicaciones y Electrónica (Ing. Control) </p>
+         </div>
+
+                  <!-- CORREO, TELEFONO, Y DESCRIPCION -->
+
+  <div class="card__body">
+         <div class="card__link">
+          <i class="fas fa-envelope icon"></i> <!-- ICONO SOBRE -->
+          <a href="mailto:nayerch_03@hotmail.com">nayerch_03@hotmail.com</a>
+         </div>
+
+         <div class="card__link">
+          <i class="fas fa-phone-alt icon"></i> <!-- ICONO TELEFONO -->
+          <a href="tel:5541894320">(+52) 55 41894320</a>
+         </div>
+
+          <p class="card__text" 
+             data-section="profile"     
+             data-value="description" 
+            >Agradezco el interés y el tiempo empleado en visitar mi Portfolio.
+            Recien egresado (UNAM). <br> <br> Apasionado por la resolución de problemas
+             por medio de la tecnología en especial con ecosistemas cómo HTML, CSS, Python,
+            JavaScript, PLC's, Microsoft Excel (Macros) y Matlab.  <br> 
+
+            <br> Mi experiencia laboral me permite confirmar que puedo trabajar
+            eficazmente tanto por iniciativa propia como parte de un equipo,
+            mi postulación se dirige a empresas cuya visión,
+            y objetivos se dedican al bienestar social y
+            al desarrollo <br> de la tecnología para beneficio humano.
+
+            <br/>
+
+          </p>
+
+<p class="CV__text"
+data-section="profile"     
+data-value="CV" > Visualiza mi CV haciendo click a mi nombre.</p> 
+  <!-- PARA PREVENIR TABNABBING -->
+
+</div> <!-- BODY CARD -->
+
+ </article>
+
+       <article class="card card--experience">
+        <h2 class="card__title" 
+            data-section="titles" 
+            data-value="t1" >Experiencias</h2>
+        <h3>    </h3>
+        <h4>    </h4>
+
+        <div class="experience">
+
+          <img src="assets/images/SPACE.png" alt="logo" class="experience__image">
+          <div class="experience__info">
+            <p class="experience__time" 
+               data-section="experience" 
+              data-value="first-job-dates"> 
+               FEBRERO 2020 - MAYO 2022  </p>
+            <h3 class="experience__job" 
+                data-section="experience" 
+                data-value="first-job-title">
+               <a href="https://es-la.facebook.com/UNAMSpace/" 
+               target="_blank" rel="noreferrer noopener" 
+               > AUXILIAR EN TELECOMUNICACIONES <br> Y SISTEMAS </a> </h3>
+            <p class="experience__description" 
+               data-section="experience" 
+               data-value="first-job-description"
+               > División de Telecomunicaciones y Sistemas, encargados de <br>
+              desarrollar e implementar métodos de interconexión entre
+              subsistemas para vehículo espacial teledirigido con comunicación
+              inalámbrica desde interfaz web de control. </p>
+
+          </div>
+        </div>
+
+        <div class="experience">
+          <img src="assets/images/logoimpa.png" alt="logo" class="experience__image">
+          <div class="experience__info">
+            <p class="experience__time" 
+               data-section="experience" 
+               data-value="last-job-dates"
+            >  AGOSTO 2017 - MAYO 2020   </p>
+
+            <h3 class="experience__job" 
+                data-section="experience" 
+                data-value="last-job-title"
+               >ASESOR GENERAL DE VENTAS</h3>
+
+            <p class="experience__description" 
+               data-section="experience" 
+              data-value="last-job-description" 
+             > Asesoría en ventas de telefonÍa celular, atención al público en mostrador
+              y vía telefónica, manejo e implementación de software y hardware en los
+              diferentes ámbitos del negocio. <br> <br> Apoyo en organización y gestión de la
+              cartera de clientes y almacén.
+               </p>
+
+          </div>
+        </div>
+       </article>
+
+<!-- HOBBIES (OTRAS SKILLS) -->
+
+<article class="card card--moreskills">
+  <h2 class="card__title" 
+      data-section="titles"     
+      data-value="t2">Otras habilidades</h2>
+ 
+  <p class="card__text-skills" 
+    data-section="titles"     
+    data-value="t3" >  - Inglés Intermedio <br> - Atención a clientes <br> - Trabajo en Equipo <br> - Facilidad de comunicación <br> - Conocimiento KPI's <br> - Modelo SCRUM <br> - Conocimiento Lenguaje PLC's <br> - Conocimiento PCB <br> - Redes y Cableado Estructurado  </p> 
+
+
+</article>
+
+      </section>  <!-- FIN SECCION COLUMNA IZQUIERDA !!!!-->
+
+<section class="column column--right">  <!-- SECCION COLUMNAS DERECHAS -->
+        <article class="card">
+          <h2 class="card__title" 
+          data-section="titles"     
+          data-value="t4" >Desarrollador Jr. Full Stack</h2>
+
+          <small class="card__subtitle" 
+          data-section="titles"     
+          data-value="t5">Años de experiencia</small>
+
+          <div class="skills"></div>
+
+          <div class="skills__header">
+            <span class="skills__start-level" 
+                  data-section="titles"     
+                  data-value="t6">0 años</span>
+
+            <span class="skills__start-level" 
+                  data-section="titles"     
+                  data-value="t7">4 años</span>
+          </div> 
+
+
+          <div class="skills">
+
+            <div class="skills__item">
+             <p class="skills__tech">HTML</p>
+             <div class="skills__bar skills__bar--50"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">CSS (Bootstrap) </p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+
+            <div class="skills__item">
+            <p class="skills__tech">Python</p>
+            <div class="skills__bar skills__bar--50"></div>
+          </div>
+
+          <div class="skills__item">
+            <p class="skills__tech">JavaScript</p>
+            <div class="skills__bar skills__bar--50"></div>
+          </div>
+
+          <div class="skills__item">
+            <p class="skills__tech">Visual Basic</p>
+            <div class="skills__bar skills__bar--30"></div>
+          </div>
+
+          </div>
+        </article>
+
+
+        <article class="card">
+          <h2 class="card__title" 
+          data-section="titles"     
+          data-value="t8">Paqueteria Microsoft Office</h2>
+
+          <small class="card__subtitle" 
+          data-section="titles"     
+          data-value="t5">Años de experiencia</small>
+
+          <div class="skills"></div>
+
+          <div class="skills__header">
+
+            <span class="skills__start-level"  
+                  data-section="titles"     
+                  data-value="t6">0 años</span>
+
+            <span class="skills__start-level" 
+                  data-section="titles"     
+                  data-value="t7">4 años</span>
+
+          </div>
+
+
+          <div class="skills">
+
+            <div class="skills__item">
+             <p class="skills__tech"> Excel</p>
+             <div class="skills__bar skills__bar--70"></div>
+            </div>
+
+            <div class="skills__item">
+            <p class="skills__tech"> Word</p>
+            <div class="skills__bar skills__bar--80"></div>
+          </div>
+
+          <div class="skills__item">
+            <p class="skills__tech"> Access</p>
+            <div class="skills__bar skills__bar--40"></div>
+          </div>
+
+
+          </div>
+        </article>
+
+
+
+
+        <article class="card">
+          <h2 class="card__title" 
+              data-section="titles"     
+              data-value="t9">Bases de Datos</h2>
+
+          <small class="card__subtitle" 
+                 data-section="titles"     
+                 data-value="t5">Años de experiencia</small>
+
+          <div class="skills"></div>
+
+          <div class="skills__header">
+            <span class="skills__start-level" 
+                  data-section="titles"     
+                   data-value="t6">0 años</span>
+
+            <span class="skills__start-level" 
+                  data-section="titles"     
+                  data-value="t7">4 años</span>
+          </div>
+
+
+          <div class="skills">
+
+            <div class="skills__item">
+             <p class="skills__tech">SQL Server</p>
+             <div class="skills__bar skills__bar--50"></div>
+            </div>
+
+
+
+          <div class="skills__item">
+            <p class="skills__tech">Firebase</p>
+            <div class="skills__bar skills__bar--50"></div>
+          </div>
+
+
+          </div>
+        </article>
+ 
+         
+<article class="card card--project">
+
+          <div class="card__image-container-p">
+            <img src="assets/images/slider1.jpg" alt="Interfaz Control con Asistente de voz" class="card__image">
+            <!-- <img src="assets/images/CORNELIA2.jpg" alt="Interfaz Control con Asistente de voz" class="card__image"> -->
+          </div>
+
+
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#JavaScript</span>
+    
+    
+              <span class="project__tag">#Arduino</span>
+              <span class="project__tag">#Firebase</span>
+              
+            </div>
+
+            <div class="project__tags">
+              <span class="project__tag" 
+                    data-section="tags"     
+                    data-value="p1">#Asistente de voz (Artyom.js)</span>
+
+              <span class="project__tag" 
+                    data-section="tags"     
+                    data-value="p2">#Electrónica Digital</span>
+              <span class="project__tag">#Responsive</span>
+            </div>
+
+
+            <h2 class="card__title-p" 
+                data-section="titles"     
+                data-value="t10">INTERFAZ DE CONTROL CON ASISTENTE DE VOZ</h2>
+            
+            <p class="card__text" 
+               data-section="titles"     
+               data-value="t11">Este es un proyecto enfocado en Dómotica (IoT) - Con este proyecto se buscó el control de varios sensores y actuadores (Hardware) a través de comandos de voz totalmente personalizados gracias a un framework de JavaScript llamado Artyom.js, el cuál nos permite manipular las funcionalidades de nuestra pagina web y accionarla por medio de los comandos en la interfaz gráfica. <br> <br> Ademas de esta libreria, la interconexión se realiza gracias al Arduino IDE vinculando los sistemas fisicos por medio de una placa de desarrollo llamada ESP8266 para posteriormente; usando la estructura de datos 'arboles' en Firebase (Base de datos en tiempo real), poder conectar los sistemas y con ello, manipularlos desde la web. <br> <br> <br> </p>
+            
+
+       <div class="buttons">
+        <a href="assets/videos/SS1.mp4" target="_blank" class="button button--primary"> Demo 1 </a>
+        <a href="assets/videos/SS2.mp4" target="_blank" class="button button--primary"> Demo 2 </a>
+        <a href="https://github.com/SergioTorresITSE/ASISTENTE-DE-VOZ" target="_blank" class="button button--ghost" 
+        data-section="titles"     
+        data-value="t12"> Código </a>
+       </div>
+
+       </div>
+</article>
+
+<article class="card card--project">
+
+  <div class="card__image-container-p-ag">
+    <img src="assets/images/AG.jpg" alt="Interfaz Control con Asistente de voz" class="card__imageag">
+    <video controls class="card__video"> 
+      <source src="assets/videos/DINOAG-TORRESMALDONADOSERGIOYAHEL-1909 AG.mp4" class="vid" type="video/mp4"> 
+    </video>
+  </div>
+
+  <div class="project">
+    <div class="project__tags">
+      <span class="project__tag">#JavaScript</span>
+
+      <span class="project__tag" 
+            data-section="tags"     
+            data-value="p3">#Algoritmos Genéticos</span>
+
+      <span class="project__tag" 
+            data-section="tags"     
+            data-value="p4">#Inteligencia Artificial</span>
+
+      <span class="project__tag">#HTML</span>
+    </div>
+
+    <h2 class="card__title-p" 
+        data-section="titles"     
+        data-value="t13">JUEGO DINOCHROME AUTOMATIZADO <br> CON ALGORITMOS GENETICOS</h2>
+    
+    <p class="card__text" 
+       data-section="titles"     
+       data-value="t14">En este proyecto se realizo la automatizacion del famoso juego 'DinoChrome' utilizando y aplicando la teoría de los Algoritmos Genéticos tanto para la optmización como para la automatización de resultados. <br> Para esto, desde el codigo libre y orginal del juego se creo una clase en JavaScript para utilizar 10 dinosaurios (población inicial) por cada generacion (partida) y poderle aplicar diversos operadores genéticos (generación de cromosomas y alelos, selección, cruce, mutación) esto con el fin de encontrar a los 2 mejores individuos por cada generación y con ello optimizar el puntaje obtenido hasta encontrar a la mejor generación de Dinosuarios, todo esto de forma automática. <br> <br> <br> </p>
+
+       <div class="buttons">
+<a href="assets/videos/DINOAG-TORRESMALDONADOSERGIOYAHEL-1909 AG.mp4" target="_blank" class="button button--primary">Demo</a>
+<a href="https://github.com/SergioTorresITSE/GENETIC-DINO" target="_blank" class="button button--ghost" 
+data-section="titles"     
+data-value="t12">Código</a>
+       </div>
+
+</div>
+</article>
+
+
+
+</section>   <!-- FIN DE SECCION COLUMNA DERECHA -->
+    
+    </main>
+
+    <script src="js/scripts.js"></script>
+
+  </body>
+
+</html>
