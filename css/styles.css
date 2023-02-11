@@ -128,7 +128,7 @@ body.dark{
 
 main{ /* PARA MOVIL */
 display: grid;
-padding: 2em;
+padding: 1.8em;
 gap:0.6em;              /*PARA SEPARACION ENTRE COLUMNAS*/
 }
 
